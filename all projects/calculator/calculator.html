@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+        <script src="calculator.js"></script>
+        <link rel="stylesheet" href="calculator.css">
+    </head>
+<body>
+    <div id="container">
+        <input type="text" id="display">
+        <div id="buttons">
+                <input onclick="one()" type="button" value="1" id="b1">
+                <input onclick="two()" type="button" value="2" id="b2">
+                <input onclick="three()" type="button" value="3" id="b3">
+                <input onclick="four()" type="button" value="4" id="b4">
+                <input onclick="five()" type="button" value="5" id="b5">
+                <input onclick="six()" type="button" value="6" id="b6">
+                <input onclick="seven()" type="button" value="7" id="b7">
+                <input onclick="eight()" type="button" value="8" id="b8">
+                <input onclick="nine()" type="button" value="9" id="b9">
+                <input onclick="allcancel()" type="button" value="Ac" id="ac">
+                <input onclick="zero()" type="button" value="0" id="b0">
+                <input onclick="output()" type="button" value="=" id="equal">
+        </div>
+        
+        <div id="buttons2">
+            <input onclick="decimal()" type="button" value="." id="decimal">
+            <input onclick="multiply()" type="button" value="*" id="multiply">
+            <input onclick="divide()" type="button" value="/" id="divide">
+            <input onclick="add()" type="button" value="+" id="add">
+            <input onclick="subtract()" type="button" value="-" id="subtract">
+            <input onclick="backspace()" type="button" value="C" id="backspace">
+        </div>
+    </div>
+</body>
+</html>

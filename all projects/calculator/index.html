@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function processInput() {
+        // Get the value from the input field
+        var inputValue = document.getElementById("inputField").value;
+    
+        // Use eval() to evaluate the string expression
+        var result = eval(inputValue);
+    
+        // You can now store the result in a variable or do further processing
+        console.log("Result:", result); // prints 133 (if input is '123+10')
+    
+        // Optionally, you can display the result somewhere in the page
+        alert("The result is: " + result);
+    }
+    
+    </script>
+</head>
+<body>
+    <input type="text" id="inputField" placeholder="Enter expression (e.g., 123+10)">
+<button onclick="processInput()">Submit</button>
+
+
+</body>
+</html>
