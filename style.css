@@ -552,11 +552,11 @@ body, html {
     transition-property: transform, filter;
     transition-timing-function: ease-out;
   }
-  .sec2 .skills .flex-bar:active {
+  /* .sec2 .skills .flex-bar:active {
     transform: translateX(50%);
     filter: opacity(0);
     
-  }
+  } */
   .skills svg {
     /* border: 2px solid black; */
     animation-name: svganimations;
