@@ -17,6 +17,23 @@ function linker3() {
     });
 }
 
+function bar() {
+    let a = document.getElementById('barr');
+    a.style.transform = 'translateX(50%)';
+    a.style.filter = 'opacity(0)';
+}
+function bar2() {
+    let a = document.getElementById('barr');
+    a.style.transform = 'translateX(0%)';
+    a.style.filter = 'opacity(1)';
+}
+
+// let a = document.querySelectorAll('.cardanchor');
+
+// a.addEventListener('hover', () => {
+//     a.style.backgroundColor = 'orange';
+// })
+
 // function player() {
 //     let a = document.getElementById("vid");
 //     a.autopay = true;
