@@ -900,12 +900,12 @@ body, html {
     gap: 10px 15px;
   }
   .card {
-    height: 270px;
+    height: 300px;
     width: 200px;
     /* border: 1px solid green; */
     border-radius: 20px;
     background-color: #161616;
-    padding: 10px 10px;
+    padding: 15px 15px;
     box-sizing: border-box;
     transition-duration: 0.3s;
     transition-property: all;
@@ -919,7 +919,7 @@ body, html {
     height: auto;
     width: auto;
     /* border: 1px solid green; */
-    border-radius: 15px;
+    border-radius: 12px;
   }
   .imgcont img {
     width: 100%;
@@ -1377,6 +1377,7 @@ body, html {
       height: 150px;
       width: 100px;
       border-radius: 8px;
+      padding: 10px 10px;
     }
     .imgcont {
       height: 85px;
