@@ -133,7 +133,7 @@ btn.addEventListener('click', () => {
         hand.style.pointerEvents = 'none';
     })
     setTimeout(() => {
-        board.innerText = 'Increase your Score from 0 to 10 !';
+        board.innerText = 'Increase your Score from 0 to 10';
         hands.forEach(hand => {
             hand.style.pointerEvents = 'auto';
         })
