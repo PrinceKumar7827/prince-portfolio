@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Lilita+One&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+    user-select: none;
+    /* font-family: "Kalam", serif; */
+    font-family: "Lilita One", serif;
+    color: white;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    /* background-color: #ffc6c6; */
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    /* height: 50%; */
+    width: 100%;
+    background-color: #1f1b1a;
+}
+.down {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px 10px;
+    height: 40%;
+}
+
+.imgcont {
+    height: 150px;
+    width: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.imgcont img {
+    height: 100%;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-property: all;
+    /* background-color: #292929; */
+    border-radius: 20px;
+}
+img:hover {
+    transform: translateY(-5px) scale(1.1);
+    cursor: pointer;
+}
+.up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5%;
+    height: 60%;
+}
+button {
+    display: block;
+    font-size: 2rem;
+    font-family: "Lilita One", serif;
+    padding: 3px 40px;
+    border: none;
+    border-radius: 15px;
+    background-color: orange;
+    box-sizing: border-box;
+    color: #151515;
+    cursor: pointer;
+    box-shadow: 0px 0px 4px black;
+    &:hover {
+        background-color: #ffc04c;
+        /* color: #323232; */
+    }
+}
+.upwrapper {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.userbox, .computerbox {
+    height: 200px;
+    width: 200px;
+    text-shadow: 0px 0px 4px black;
+    background-color: #1a1616;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.plusone1, .plusone2 {
+    height: auto;
+    width: auto;
+    /* border: 1px solid yellow; */
+    color: orange;
+    position: absolute;
+    right: 25%;
+    bottom: 40%;
+    font-size: 1.5rem;
+    display: none;
+    animation-name: anim;
+    animation-timing-function: ease-in;
+    animation-duration: 0.7s; 
+}
+.userheading {
+    color: orange;
+}
+.computerheading {
+    color: wheat;
+}
+.userheading, .computerheading {
+    font-size: 1.5rem;
+}
+.userscore,.computerscore {
+    font-size: 3.5rem;
+}
+.computerbox {
+    height: 200px;
+    width: 200px;
+    /* background-color: gray;    */
+}
+.board {
+    height: auto;
+    text-align: center;
+    width: auto;
+    /* background-color: gray; */
+    font-size: 2rem;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+@keyframes anim {
+    0% {
+        transform: translateY(0px);
+        filter: opacity(0.5);
+    }
+    50% {
+        /* transform: translateY(-10px); */
+        filter: opacity(1);
+    }
+    75% {
+        
+        filter: opacity(0.5);
+    }
+    100% {
+        transform: translateY(-20px);
+        filter: opacity(0);
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: rotateZ(10deg);
+    }
+    25% {
+        transform: rotateZ(-10deg);
+    }
+    50% {
+        transform: rotateZ(10deg);
+    }
+    75% {
+        transform: rotateZ(-10deg);
+    }
+    100% {
+        transform: rotateZ(0deg);
+    }
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .imgcont {
+        height: 100px;
+    }
+
+    .userbox, .computerbox {
+        height: 120px;
+        width: 120px;
+    }
+    .plusone1, .plusone2 {
+        right: 10%;
+    }
+    .board {
+        font-size: 1.35rem;
+    }
+    .userheading, .computerheading {
+        font-size: 1rem;
+    }
+}
