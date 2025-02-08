@@ -717,8 +717,8 @@ body, html {
     background-position: 20px -110px;
   }
   .projects-container :nth-child(3) {
-    background-image: url(images/calculatorss.png);
-    background-position: center center;
+    background-image: url(images/Screenshot\ 2025-02-08\ 161542.png);
+    background-position: center left;
   }
   .projects-container :nth-child(1)::before {
     content: "NETFLIX";
@@ -803,7 +803,7 @@ body, html {
     transition-timing-function: ease;
   }
   .projects-container :nth-child(3)::before {
-    content: "CALCULATOR";
+    content: "Pro Drone 2.0";
     position: absolute;
     height: 100%;
     width: 100%;
