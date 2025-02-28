@@ -7,7 +7,7 @@
 
 ::-webkit-scrollbar {
   width: 8px;
-  height: 2px;
+  height: 12px;
 }
 ::-webkit-scrollbar-track {
   background: transparent;
@@ -527,6 +527,7 @@ body, html {
     user-select: none;
     margin-top: 20vh;
     position: relative;
+    height: 200px;
     padding-left: 20px;
     /* padding-right: 20px; */
     box-sizing: border-box;
@@ -537,6 +538,7 @@ body, html {
     font-family: "Bebas Neue", sans-serif;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
   }
   .skills .flex-bar {
@@ -544,7 +546,7 @@ body, html {
     grid-template-columns: 1fr ;
     overflow: hidden;
     position: absolute;
-    height: 100%;
+    height: 200px;
     width: 100%;
     position: absolute;
     z-index: 1;
@@ -581,6 +583,9 @@ body, html {
   }
   .skills :nth-child(7) {
     animation-delay: 7.5s; 
+  }
+  .skills :nth-child(8) {
+    animation-delay: 1.5s; 
   }
   @keyframes svganimations {
     from {
@@ -1437,7 +1442,7 @@ body, html {
       line-height: 30px;
     }
     .sec2 .skills {
-        height: auto;
+        height: 200px;
         font-size: 60px;
     }
     .sec2 .skill-box {
@@ -1532,8 +1537,8 @@ body, html {
       width: 30vw;
      }
      .skills svg {
-      width: 120px;
-      height: 120px;
+      width: 80px;
+      height: 80px;
      }
   }
 
