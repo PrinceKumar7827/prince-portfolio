@@ -16,6 +16,12 @@ function linker3() {
         window.open("https://princekumar7827.github.io/prodrone2-0/", "_blank");
     });
 }
+function linker4() {
+    let a = document.getElementById("link4");
+    a.addEventListener("click", function() {
+        window.open("https://princekumar7827.github.io/the-shoe-company/", "_blank");
+    });
+}
 
 function bar() {
     let a = document.getElementById('barr');
