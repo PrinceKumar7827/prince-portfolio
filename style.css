@@ -725,6 +725,11 @@ body, html {
     background-image: url(images/Screenshot\ 2025-02-08\ 161542.png);
     background-position: center left;
   }
+  .projects-container :nth-child(4) {
+    background-image: url(images/shoeweb.png);
+    /* background-position: 20px -110px; */
+    background-position: center left;
+  }
   .projects-container :nth-child(1)::before {
     content: "NETFLIX";
     position: absolute;
@@ -871,6 +876,57 @@ body, html {
     background-color: transparent;
     transition-duration: 0.8s;
     transform: translateX(100%);
+    filter: opacity(0);
+    transition-timing-function: ease;
+  }
+
+  .projects-container :nth-child(4)::before {
+    content: "SHOE COMPANY";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #000000ec;
+    z-index: 3;
+    /* border-radius: 50px; */
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 100px;
+    color: #c8c8c8;
+    text-align: center;
+    place-content: center;
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+  }
+  .projects-container :nth-child(4)::after {
+    content: "TAILWIND CSS";
+    font-family: "Bebas Neue", sans-serif;
+    width: 300px;
+    top: 40px;
+    box-shadow: 0px 0px 7px black;
+    left: -95px;
+    /* background-color: var(--color); */
+    background-color: yellow;
+    transform: rotateZ(-45deg);
+    position: absolute;
+    z-index: 4;
+    font-size: 25px;
+    text-align: center;
+    color: #111111;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+  }
+  .projects-container :nth-child(4):hover::after {
+    top: -100px;
+    left: -200px;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+  }
+  .projects-container :nth-child(4):hover::before {
+    /* content-visibility: hidden; */
+    /* visibility: hidden; */
+    background-color: transparent;
+    transition-duration: 0.8s;
+    transform: translateX(-100vw);
     filter: opacity(0);
     transition-timing-function: ease;
   }
@@ -1519,6 +1575,9 @@ body, html {
     .projects-container :nth-child(3) {
       background-size: 100vh;
     }
+    .projects-container :nth-child(4) {
+      background-size: 100vh;
+    }
 
     .projects-container :nth-child(1)::before {
       font-size: 60px;
@@ -1527,6 +1586,9 @@ body, html {
       font-size: 60px;
     }
     .projects-container :nth-child(3)::before {
+      font-size: 60px;
+    }
+    .projects-container :nth-child(4)::before {
       font-size: 60px;
     }
 
