@@ -1,8 +1,6 @@
-// window.addEventListener("load", function () {
-//     // When everything is loaded (images, scripts, etc.)
-//     // document.getElementById("loading").style.display = "none";
-//     document.getElementById("body").style.display = "block";
-//   });
+window.addEventListener("load", function () {
+    document.getElementById("body").style.display = "block";
+  });
 
 let btnCursor = document.querySelector(".btn-cursor");
 let getGsapButton = document.querySelector(".get-gsap-button");
@@ -1295,27 +1293,13 @@ scrollBtn.forEach((btn) => {
   });
 });
 
-let tl34 = gsap.timeline();
-tl34.from(".education-container span", {
-  x: "200%",
-  duration: 1,
-  ease: "power4.out",
-});
-tl34.from(
-  ".education-container p",
-  {
-    x: "200%",
-    duration: 1,
-    ease: "power4.out",
-  },
-  "-=1"
-);
+
 
 let tl30 = gsap.timeline({
   scrollTrigger: {
     scroller: "body",
-    trigger: ".scroll",
-    start: "top, 55%",
+    trigger: ".scrollp",
+    start: "top, 60%",
   },
 });
 tl30.from(".scroll h1", {
@@ -1336,8 +1320,8 @@ tl30.from(
 let tl31 = gsap.timeline({
   scrollTrigger: {
     scroller: "body",
-    trigger: ".svgg",
-    start: "top, 55%",
+    trigger: ".svggp",
+    start: "top, 60%",
   },
 });
 tl31.from(".svgg h1", {
@@ -1358,8 +1342,8 @@ tl31.from(
 let tl32 = gsap.timeline({
   scrollTrigger: {
     scroller: "body",
-    trigger: ".textt",
-    start: "top, 55%",
+    trigger: ".texttp",
+    start: "top, 60%",
   },
 });
 tl32.from(".textt h1", {
@@ -1380,8 +1364,8 @@ tl32.from(
 let tl33 = gsap.timeline({
   scrollTrigger: {
     scroller: "body",
-    trigger: ".uii",
-    start: "top, 55%",
+    trigger: ".uiip",
+    start: "top, 60%",
   },
 });
 tl33.from(".uii h1", {
