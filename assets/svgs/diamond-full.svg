@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" viewBox="0 0 192 190" aria-hidden="true">
+  <path fill="url(#a)" fill-rule="evenodd" d="M95.54 5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM31.112 31.433a2.5 2.5 0 1 0-3.224-3.822 2.5 2.5 0 0 0 3.224 3.822Zm127.756.004a2.501 2.501 0 0 1 3.227-3.824 2.502 2.502 0 0 1-3.227 3.824ZM2.5 93a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5Zm186.041 0a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5Zm-29.972 69.81a2.503 2.503 0 0 1 .297-3.525 2.502 2.502 0 0 1 3.227 3.825 2.502 2.502 0 0 1-3.524-.3Zm-127.092.001a2.501 2.501 0 1 0-3.824-3.226 2.501 2.501 0 0 0 3.824 3.226ZM98 187.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Z" clip-rule="evenodd"></path>
+  <path fill="url(#b)" fill-opacity=".6" fill-rule="evenodd" d="M95.54 5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM31.112 31.433a2.5 2.5 0 1 0-3.224-3.822 2.5 2.5 0 0 0 3.224 3.822Zm127.756.004a2.501 2.501 0 0 1 3.227-3.824 2.502 2.502 0 0 1-3.227 3.824ZM2.5 93a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5Zm186.041 0a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5Zm-29.972 69.81a2.503 2.503 0 0 1 .297-3.525 2.502 2.502 0 0 1 3.227 3.825 2.502 2.502 0 0 1-3.524-.3Zm-127.092.001a2.501 2.501 0 1 0-3.824-3.226 2.501 2.501 0 0 0 3.824 3.226ZM98 187.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Z" clip-rule="evenodd" style="mix-blend-mode:multiply"></path>
+  <path fill="url(#c)" fill-rule="evenodd" d="M95.5 70a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM73.053 81.112a2.5 2.5 0 1 0-3.225-3.821 2.5 2.5 0 0 0 3.225 3.821Zm43.856 0a2.5 2.5 0 1 1 3.224-3.82 2.5 2.5 0 0 1-3.224 3.82ZM67.5 93a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5Zm56 0a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5Zm-6.888 20.133a2.5 2.5 0 1 1 3.82-3.225 2.5 2.5 0 0 1-3.82 3.225Zm-43.26 0a2.5 2.5 0 1 0-3.822-3.224 2.5 2.5 0 0 0 3.822 3.224ZM98 122.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Z" clip-rule="evenodd"></path>
+  <path fill="url(#d)" fill-opacity=".6" fill-rule="evenodd" d="M95.5 70a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM73.053 81.112a2.5 2.5 0 1 0-3.225-3.821 2.5 2.5 0 0 0 3.225 3.821Zm43.856 0a2.5 2.5 0 1 1 3.224-3.82 2.5 2.5 0 0 1-3.224 3.82ZM67.5 93a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5Zm56 0a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5Zm-6.888 20.133a2.5 2.5 0 1 1 3.82-3.225 2.5 2.5 0 0 1-3.82 3.225Zm-43.26 0a2.5 2.5 0 1 0-3.822-3.224 2.5 2.5 0 0 0 3.822 3.224ZM98 122.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Z" clip-rule="evenodd" style="mix-blend-mode:multiply"></path>
+  <defs>
+    <linearGradient id="a" x1="62.173" x2="147.334" y1="18.397" y2="190.78" gradientUnits="userSpaceOnUse">
+      <stop offset=".199" stop-color="#F7BDF8"></stop>
+      <stop offset="1" stop-color="#2F3CC0"></stop>
+    </linearGradient>
+    <linearGradient id="c" x1="84.852" x2="111.564" y1="70.81" y2="125.481" gradientUnits="userSpaceOnUse">
+      <stop offset=".199" stop-color="#F7BDF8"></stop>
+      <stop offset="1" stop-color="#2F3CC0"></stop>
+    </linearGradient>
+    <pattern id="b" width="1.047" height="1.053" patternContentUnits="objectBoundingBox">
+      <use xlink:href="#e" transform="scale(.0021)"></use>
+    </pattern>
+    <pattern id="d" width="3.279" height="3.333" patternContentUnits="objectBoundingBox">
+      <use xlink:href="#e" transform="scale(.00656 .00667)"></use>
+    </pattern>
+  </defs>
+</svg>

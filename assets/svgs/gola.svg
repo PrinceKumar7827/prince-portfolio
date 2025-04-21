@@ -1,0 +1,15 @@
+<svg viewBox="0 0 191 190" fill="none" id="home-tools-text-circle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="translate: none; rotate: none; scale: none; transform-origin: 50% 50%; transform: translate(0px, 0px);">
+    <rect x="0.751099" y="190.001" width="190" height="190" rx="95" transform="rotate(-90 0.751099 190.001)" fill="url(#home-tools-text-circle-radial)"></rect>
+    <rect x="0.751099" y="190.001" width="190" height="190" rx="95" transform="rotate(-90 0.751099 190.001)" fill="url(#home-tools-text-circle-pattern)" fill-opacity="0.6"></rect>
+    
+    <defs>
+        <pattern id="home-tools-text-circle-pattern" patternContentUnits="objectBoundingBox" width="0.526316" height="0.526316">
+        <use xlink:href="#svg-noise" transform="scale(0.00105263)"></use>
+        </pattern>
+
+        <radialGradient id="home-tools-text-circle-radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(230.59 344.759) rotate(-142.224) scale(310.168 148.907)">
+        <stop offset="0.270833" stop-color="#DFDCFF"></stop>
+        <stop offset="1" stop-color="#A69EFF"></stop>
+        </radialGradient>
+    </defs>
+</svg>
