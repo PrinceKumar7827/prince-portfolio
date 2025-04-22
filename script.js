@@ -1,6 +1,6 @@
-window.addEventListener("load", function () {
-    document.getElementById("body").style.display = "block";
-  });
+// window.addEventListener("load", function () {
+//     document.getElementById("body").style.display = "block";
+//   });
 
 let btnCursor = document.querySelector(".btn-cursor");
 let getGsapButton = document.querySelector(".get-gsap-button");
@@ -20,7 +20,7 @@ let tl35 = gsap.timeline({
   scrollTrigger: {
     scroller: "body",
     trigger: ".main25",
-    start: "top 20%",
+    start: "top 40%",
     // markers: true,
   },
 });
@@ -71,8 +71,8 @@ tl35.from(
   "-=2.5"
 );
 
-function breakText2(container, spanWithClass = "") {
-  let textContainer = document.querySelector(container);
+// function breakText2(container, spanWithClass = "") {
+  let textContainer = document.querySelector(".main-para");
   let text = textContainer.textContent;
   // console.log(animateP);
   let clutter = "";
@@ -82,16 +82,29 @@ function breakText2(container, spanWithClass = "") {
   let splitted = text.split(" ");
   let i = 0;
   splitted.forEach((letter) => {
-    clutter += `<p class="${spanWithClass} ${spanWithClass + i}">${letter}</p>`;
-    // console.log();
-    i++;
+    clutter += `<span class="broken">${letter + '&#160'}</span>`;
+    // i++;
   });
+  // console.log(text);
   textContainer.innerHTML = clutter;
 
-  // console.log(clutter);
-}
 
-// breakText2(".main-para", "letter");
+gsap.to(".broken", {
+  scrollTrigger: {
+    scroller: "body",
+    trigger: ".main-para",
+    // markers: true,
+    start: "top 90%",
+    end: "300px 90%",
+    scrub: true,
+  },
+  color: "orange",
+  duration: 1,
+  stagger: 0.2,
+})
+
+
+
 
 let audioToggle = false;
 // audio.play();
@@ -1242,30 +1255,30 @@ function bar2() {
   a.style.transform = "translateX(0%)";
   a.style.filter = "opacity(1)";
 }
-let tl19 = gsap.timeline({
-  scrollTrigger: {
-    scroller: "body",
-    trigger: ".thats-right-anything",
-    // markers: true,
-    start: "top 65%",
-  },
-});
+// let tl19 = gsap.timeline({
+//   scrollTrigger: {
+//     scroller: "body",
+//     trigger: ".thats-right-anything",
+//     // markers: true,
+//     start: "top 65%",
+//   },
+// });
 
-if (window.innerWidth < 800) {
-  gsap.from(".flower2-mobile", {
-    x: "200%",
-    duration: 3,
-    rotate: 180,
-    ease: "elastic.out(1,0.9)",
-    scrollTrigger: {
-      scroller: "body",
-      trigger: ".flower2-mobile",
-      // markers: true,
-      start: "-130% 0%",
-      // end: "70% 100%",
-    },
-  });
-}
+// if (window.innerWidth < 800) {
+//   gsap.from(".flower2-mobile", {
+//     x: "200%",
+//     duration: 3,
+//     rotate: 180,
+//     ease: "elastic.out(1,0.9)",
+//     scrollTrigger: {
+//       scroller: "body",
+//       trigger: ".flower2-mobile",
+//       // markers: true,
+//       start: "-130% 0%",
+//       // end: "70% 100%",
+//     },
+//   });
+// }
 
 let scrollBtn = document.querySelectorAll(".m2secb");
 let overlay = document.querySelectorAll(".m2seco");
@@ -1299,7 +1312,7 @@ let tl30 = gsap.timeline({
   scrollTrigger: {
     scroller: "body",
     trigger: ".scrollp",
-    start: "top, 50%",
+    start: "top, 55%",
   },
 });
 tl30.from(".scroll h1", {
@@ -1321,7 +1334,7 @@ let tl31 = gsap.timeline({
   scrollTrigger: {
     scroller: "body",
     trigger: ".svggp",
-    start: "top, 50%",
+    start: "top, 55%",
   },
 });
 tl31.from(".svgg h1", {
@@ -1343,7 +1356,7 @@ let tl32 = gsap.timeline({
   scrollTrigger: {
     scroller: "body",
     trigger: ".texttp",
-    start: "top, 50%",
+    start: "top, 55%",
   },
 });
 tl32.from(".textt h1", {
@@ -1365,7 +1378,7 @@ let tl33 = gsap.timeline({
   scrollTrigger: {
     scroller: "body",
     trigger: ".uiip",
-    start: "top, 50%",
+    start: "top, 55%",
   },
 });
 tl33.from(".uii h1", {
@@ -1383,23 +1396,24 @@ tl33.from(
   "-=1.45"
 );
 
-let svgItemPart1 = document.querySelector(".svg-item-part1");
-let svgItemPart2 = document.querySelector(".svg-item-part2");
-let tl28 = gsap.timeline({
-  // repeat: -1,
-  scrollTrigger: {
-    scroller: "body",
-    trigger: ".svg-container",
-    start: "top, 50%",
-  },
-});
+// let svgItemPart1 = document.querySelector(".svg-item-part1");
+// let svgItemPart2 = document.querySelector(".svg-item-part2");
+// let tl28 = gsap.timeline({
+//   // repeat: -1,
+//   scrollTrigger: {
+//     scroller: "body",
+//     trigger: ".svg-container",
+//     start: "top, 50%",
+//   },
+// });
 
 // if(window.innerWidth > 800) {
 
 gsap.from(".skill-container svg", {
   y: "200%",
   stagger: 0.1,
-  duration: 0.5,
+  duration: 1,
+  ease: "elastic.out(1,0.8)",
   scrollTrigger: {
     scroller: "body",
     trigger: ".skill-container",
