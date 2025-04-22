@@ -192,11 +192,14 @@
     .main25 p {
         padding: 20px 0px;
     }
+    .main25 .why {
+        padding: 0px;
+    }
     .main25 > img {
         width: 40px;
         /* border: 1px solid red; */
         position: absolute;
-        top: 25%;
+        top: 20%;
         right: 15%;
     }
     .adha {
@@ -207,18 +210,17 @@
         
     }
     .time {
-    top: 20%;
+    top: 15%;
     width: 15px;
     right: 30%;
     }
 
     .main-para {
         padding: 20px 0px;
-        font-size: 1rem;
-
-        margin-top: 20px;
+        font-size: 1.2rem;
+        margin-top: 50px;
     }
-   
+
     .main-container3 {
         width: 100%;
         display: none;
