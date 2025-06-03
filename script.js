@@ -1566,8 +1566,8 @@ function caseCounter() {
       pText.textContent = "{ HTML, CSS }";
       break;
     case 4:
-      h1Text.textContent = "Tic-Tac-Toe";
-      pText.textContent = "{ HTML, CSS, JavaScript }";
+      h1Text.textContent = "The Shoe Company";
+      pText.textContent = "{ HTML, JavaScript, Tailwind CSS }";
       break;
     case 5:
       h1Text.textContent = "Rock Paper Scissors Game";
