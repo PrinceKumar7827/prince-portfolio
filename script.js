@@ -1354,9 +1354,10 @@ tl31.from(
 
 let tl32 = gsap.timeline({
   scrollTrigger: {
+    // markers: true,
     scroller: "body",
     trigger: ".texttp",
-    start: "top, 55%",
+    start: "top, 35%",
   },
 });
 tl32.from(".textt h1", {
@@ -1376,9 +1377,10 @@ tl32.from(
 
 let tl33 = gsap.timeline({
   scrollTrigger: {
+    // markers: true,
     scroller: "body",
     trigger: ".uiip",
-    start: "top, 55%",
+    start: "top, 35%",
   },
 });
 tl33.from(".uii h1", {
@@ -1415,6 +1417,7 @@ gsap.from(".skill-container svg", {
   duration: 1,
   ease: "elastic.out(1,0.8)",
   scrollTrigger: {
+    // markers: true,
     scroller: "body",
     trigger: ".skill-container",
     start: "top, 70%",
