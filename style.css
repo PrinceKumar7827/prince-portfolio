@@ -536,7 +536,7 @@ nav a {
 }
 
 .animate .flower1 {
-    width: 1px;
+    width: 0.8px;
     position: absolute;
     left: 350px;
     top: 220px;
@@ -1912,7 +1912,7 @@ footer {
     /* border: 1px solid yellow; */
     /* width: 50px; */
     animation-name: handy;
-    animation-duration: 3s;
+    animation-duration: 20s;
     /* animation-delay: 1s; */
     animation-timing-function: ease;
     animation-iteration-count: infinite;
@@ -1924,14 +1924,14 @@ footer {
   }
   .whatsapp svg {
     animation-name: icon;
-    animation-duration: 2s;
+    animation-duration: 5s;
     animation-timing-function: ease;
     animation-iteration-count: infinite;
     animation-direction: alternate;
   }
   .gmail svg {
     animation-name: icon;
-    animation-duration: 2s;
+    animation-duration: 5s;
     animation-timing-function: ease;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -1939,7 +1939,7 @@ footer {
   }
   .git-hub svg {
     animation-name: icon;
-    animation-duration: 2s;
+    animation-duration: 5s;
     animation-timing-function: ease;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -1947,7 +1947,7 @@ footer {
   }
   .linkedin svg {
     animation-name: icon;
-    animation-duration: 2s;
+    animation-duration: 5s;
     animation-timing-function: ease;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -1955,7 +1955,7 @@ footer {
   }
   .instagram svg {
     animation-name: icon;
-    animation-duration: 2s;
+    animation-duration: 5s;
     animation-timing-function: ease;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -1963,7 +1963,7 @@ footer {
   }
   .x svg {
     animation-name: icon;
-    animation-duration: 2s;
+    animation-duration: 5s;
     animation-timing-function: ease;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -1987,7 +1987,7 @@ footer {
     /* width: 50px; */
     padding: 5px 5px;
     animation-name: handy;
-    animation-duration: 3s;
+    animation-duration: 20s;
     /* border: 1px solid yellow; */
     animation-delay: 2.5s;
     animation-timing-function: ease;
@@ -2007,7 +2007,7 @@ footer {
     /* width: 50px; */
     padding: 5px 5px;
     animation-name: handy;
-    animation-duration: 3s;
+    animation-duration: 20s;
     /* border: 1px solid yellow; */
     animation-delay: 3.2s;
     animation-timing-function: ease;
@@ -2027,7 +2027,7 @@ footer {
     /* width: 50px; */
     padding: 5px 5px;
     animation-name: handy;
-    animation-duration: 3s;
+    animation-duration: 20s;
     animation-delay: 1s;
     animation-timing-function: ease;
     animation-iteration-count: infinite;
@@ -2047,7 +2047,7 @@ footer {
     /* width: 50px; */
     padding: 5px 5px;
     animation-name: handy;
-    animation-duration: 3s;
+    animation-duration: 20s;
     animation-delay: 1.5s;
     animation-timing-function: ease;
     /* border: 1px solid yellow; */
@@ -2067,7 +2067,7 @@ footer {
     /* width: 50px; */
     padding: 5px 5px;
     animation-name: handy;
-    animation-duration: 3s;
+    animation-duration: 20s;
     animation-delay: 3s;
     animation-timing-function: ease;
     /* border: 1px solid yellow; */
@@ -2078,7 +2078,7 @@ footer {
         border-radius: 10px;
     } */
   }
-  footer .hand {
+  /* footer .hand {
     position: absolute;
     bottom: -40px;
     left: 50%;
@@ -2092,7 +2092,7 @@ footer {
     animation-timing-function: ease;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
-  }
+  } */
   .hand img {
     width: 20vw;
   }
@@ -2120,7 +2120,13 @@ footer {
     0% {
       transform: translateY(0px);
     }
-    100% {
+    40% {
+        transform: translateX(-10px);
+    }
+    80% {
       transform: translateY(30px);
+    }
+    100% {
+        transform: translateX(10px);
     }
   }
